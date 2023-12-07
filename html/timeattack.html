@@ -9,11 +9,9 @@
       .table thead tr th {
         white-space: nowrap;
       }
-    
       .table tbody tr {
         white-space: nowrap;
       }
-    
       .table tbody tr td {
         vertical-align: middle;
       }
@@ -63,10 +61,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="index.html">主页</a>
-          <a class="nav-link active" href="timeattack.html">TimeAttack</a>
-          <a class="nav-link" href="ocm.html">OCM</a>
-          <a class="nav-link" href="vsorg.html">VSORG</a>
+          <a class="nav-link" href="../index.html">主页</a>
+          <a class="nav-link active" href="../html/timeattack.html">TimeAttack</a>
+          <a class="nav-link" href="../html/ocm_preRace.html">OCM预赛</a>
+          <a class="nav-link" href="../html/ocm_MainRraw.html">OCM正赛</a>
+          <a class="nav-link" href="../html/vsorg.html">VSORG</a>
           <a class="nav-link" href="https://shimokitazawa.cn/" target="_blank">返回SeasonRC主站点</a>
         </div>
       </div>
@@ -74,7 +73,7 @@
   </nav>
 
   <div class="container mt-5">
-    <h1>SeasonRC TimeAttack</h1>
+    <h1>TimeAttack Rank</h1>
 
     <!-- 下拉框 -->
     <div class="mb-3">
@@ -135,6 +134,7 @@
   <script>
     async function getData() {
         const selectedCourse = document.getElementById('courseSelect').value;
+        const selectedCourseName = document.getElementById('courseSelect').innerText;
 
         document.getElementById('courseSelect').disabled = true;
         document.getElementById('result_time').style.display = 'none';
@@ -175,7 +175,7 @@
                     <td class="car_pics"><img width="120px" style="background-color: black;" src="${item.playerCar_pic}" alt="${item.playerCar}"></td>
                     <td class="level_pics"><img src="${item.level_pic}" alt="${item.level}"></td>
                     <td class="data">
-                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ta_detail_Modal" onclick="showDetails('${item.name}', '${item.section1Time}', '${item.section2Time}', '${item.section3Time}', '${item.section4Time}', '${item.section5Time}', '${item.section6Time}', '${item.section7Time}', '${item.formattedTime}', '${item.controlLevel}', '${item.playerCar}')">
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ta_detail_Modal" onclick="showDetails('${item.name}', '${item.section1Time}', '${item.section2Time}', '${item.section3Time}', '${item.section4Time}', '${item.section5Time}', '${item.section6Time}', '${item.section7Time}', '${item.formattedTime}', '${item.controlLevel}', '${item.playerCar}', '${convertCourseName(item.course)}')">
                       查看
                       </button>
                     </td>
@@ -199,11 +199,12 @@
         }
     }
 
-    function showDetails(name, section1Time, section2Time, section3Time, section4Time, section5Time, section6Time, section7Time, formattedTime, controlLevel, playerCar) {
+    function showDetails(name, section1Time, section2Time, section3Time, section4Time, section5Time, section6Time, section7Time, formattedTime, controlLevel, playerCar, selectedCourseName) {
 
       const modalBody = document.getElementById('modalBody');
       modalBody.innerHTML = `
         <p>名称：${name}</p>
+        <p>赛道：${selectedCourseName}</p>
         <p>总用时：${formattedTime}</p>
         <p>操控等级：${controlLevel}</p>
         <p>车辆型号：${playerCar}</p>
@@ -219,6 +220,39 @@
           <p>CP6：${section6Time}</p>
           <p>CP7：${section7Time}</p>`;
       }
+    }
+
+    function convertCourseName(course_id) {
+      let course_name = null;
+      switch (course_id) {
+        case 0: course_name = "C1内环"; break;
+        case 1: course_name = "C1外环"; break;
+        case 2: course_name = "新环线左环"; break;
+        case 3: course_name = "新环线右环"; break;
+        case 4: course_name = "涉谷线 · 新宿线"; break;
+        case 5: course_name = "池袋线 · 山手隧道"; break;
+        case 6: course_name = "湾岸线东行"; break;
+        case 7: course_name = "湾岸线西行"; break;
+        case 8: course_name = "横羽线下行"; break;
+        case 9: course_name = "横羽线上行"; break;
+        case 10: course_name = "八重洲线内环"; break;
+        case 11: course_name = "八重洲线外环"; break;
+        case 12: course_name = "横滨线内环"; break;
+        case 13: course_name = "横滨线外环"; break;
+        case 14: course_name = "名古屋环状线"; break;
+        case 15: course_name = "阪神高速环状线（大阪）"; break;
+        case 16: course_name = "阪神高速3号 · 临港道路（神户）"; break;
+        case 17: course_name = "福冈都市高速"; break;
+        case 18: course_name = "箱根去路"; break;
+        case 19: course_name = "箱根归路"; break;
+        case 20: course_name = "大观山上行"; break;
+        case 21: course_name = "大观山下行"; break;
+        case 22: course_name = "首都高一周（东京区域）"; break;
+        case 13: course_name = "首都高一周（神奈川区域）"; break;
+        case 14: course_name = "广岛高速"; break;
+        default: course_name = "未知赛道";
+      }
+      return course_name;
     }
   </script>
 
