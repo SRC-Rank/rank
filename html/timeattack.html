@@ -5,49 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SeasonRC Rank | TimeAttack</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <style>
-      .table thead tr th {
-        white-space: nowrap;
-      }
-      .table tbody tr {
-        white-space: nowrap;
-      }
-      .table tbody tr td {
-        vertical-align: middle;
-      }
-      .level_pics {
-        width: 120px;
-        text-align: center;
-      }
-      .data {
-        width: 100px;
-        text-align: center;
-      }
-      .car_pics {
-        width: 120px;
-        text-align: center;
-      }
-      .table-container {
-        overflow-x: auto;
-      }
-      .gold td {
-        background: -moz-linear-gradient(top, rgba(252,238,129,1) 0%, rgba(178,139,62,1) 100%);
-        background: -webkit-linear-gradient(top, rgba(252,238,129,1) 0%,rgba(178,139,62,1) 100%);
-        background: linear-gradient(to bottom, rgba(252,238,129,1) 0%,rgba(178,139,62,1) 100%);
-        color: black;
-      }
-      .silver td {
-        background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(185,183,184,1) 100%);
-        background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(185,183,184,1) 100%);
-        background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(185,183,184,1) 100%);
-        color: black;
-      }
-      .bronze td {
-        background: -moz-linear-gradient(top, rgba(233,209,171,1) 0%, rgba(158,97,68,1) 100%);
-        background: -webkit-linear-gradient(top, rgba(233,209,171,1) 0%,rgba(158,97,68,1) 100%);
-        background: linear-gradient(to bottom, rgba(233,209,171,1) 0%,rgba(158,97,68,1) 100%);
-        color: black;
-      }
+    <link rel="stylesheet" href="../src/css/main.css">
     </style>
   </head>
   <body>
@@ -142,7 +100,7 @@
         document.getElementById("result").style.display = 'none';
     
         try {
-          const response = await fetch('https://json.kksk-blog.site/getTAData', {
+          const response = await fetch('http://127.0.0.1:3000/getTAData', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
