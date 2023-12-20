@@ -1,0 +1,598 @@
+[
+    {
+        "visualModel": "999",
+        "name": "所有车辆"
+    },
+    {
+        "visualModel": "0",
+        "name": "CORVETTE ZR1 (C6)"
+    },  
+    {   
+        "visualModel": "1",
+        "name": "CORVETTE ZR1 (C6) 出租车样式"
+    },  
+    {   
+        "visualModel": "2",
+        "name": "CAMARO SS RS"
+    },  
+    {   
+        "visualModel": "3",
+        "name": "CAMARO SS RS（黑色特别版）"
+    },  
+    {   
+        "visualModel": "4",
+        "name": "CORVETTE Stingray (C3)"
+    },  
+    {   
+        "visualModel": "5",
+        "name": "Roadster RS RHT(NCEC)"
+    },
+    {
+        "visualModel": "6",
+        "name": "RX-7 Type R (FD3S)"
+    },  
+    {   
+        "visualModel": "7",
+        "name": "SAVANNA RX-7 GT-X (FC3S)"
+    },  
+    {   
+        "visualModel": "8",
+        "name": "RX-8 Type S (SE3P)"
+    },  
+    {   
+        "visualModel": "9",
+        "name": "EUNOS Cosmo TYPE-S (JCESE)"
+    },  
+    {   
+        "visualModel": "10",
+        "name": "MAZDASPEED Atenza (GG3P)"
+    },
+    {   
+        "visualModel": "11",
+        "name": "MAZDASPEED Atenza (GG3P) 教练车版本"
+    },
+    {   
+        "visualModel": "12",
+        "name": "SAVANNA RX-7 TURBO SE-Limited (SA22C)"
+    },
+    {   
+        "visualModel": "13",
+        "name": "Cosmo SPORTS (L10B)"
+    },
+    {   
+        "visualModel": "14",
+        "name": "LANCER EVOLUTION X GSR (CZ4A)"
+    },
+    {   
+        "visualModel": "15",
+        "name": "LANCER Evolution IX MR GSR (CT9A)"
+    },
+    {   
+        "visualModel": "16",
+        "name": "LANCER Evolution VIII MR GSR(CT9A)"
+    },
+    {   
+        "visualModel": "17",
+        "name": "LANCER Evolution VIII MR RS(CT9A)"
+    },
+    {   
+        "visualModel": "18",
+        "name": "LANCER EVOLUTION VI RS(CP9A)"
+    },
+    {   
+        "visualModel": "19",
+        "name": "LANCER EVOLUTION VI GSR(CP9A)"
+    },
+    {   
+        "visualModel": "20",
+        "name": "LANCER EVOLUTION V GSR (CP9A)"
+    },
+    {   
+        "visualModel": "21",
+        "name": "LANCER EVOLUTION V RS (CP9A)"
+    },
+    {   
+        "visualModel": "22",
+        "name": "LANCER Evolution III GSR(CE9A)"
+    },
+    {   
+        "visualModel": "23",
+        "name": "LANCER Evolution III RS(CE9A)"
+    },
+    {   
+        "visualModel": "24",
+        "name": "GTO TWIN TURBO (Z16A)"
+    },
+    {   
+        "visualModel": "25",
+        "name": "STARION GSR-VR (A187A)"
+    },
+    {   
+        "visualModel": "26",
+        "name": "PAJERO EVOLUTION (V55W)"
+    },
+    {   
+        "visualModel": "27",
+        "name": "GT-R (R35)"
+    },
+    {   
+        "visualModel": "28",
+        "name": "GT-R (R35) Spec V"
+    },
+    {   
+        "visualModel": "29",
+        "name": "SKYLINE GT-R V-specII (BNR34)"
+    },
+    {   
+        "visualModel": "30",
+        "name": "SKYLINE GT-R V-specII Nur (BNR34)"
+    },
+    {   
+        "visualModel": "31",
+        "name": "SKYLINE GT-R V-spec (BCNR33)"
+    },
+    {   
+        "visualModel": "32",
+        "name": "SKYLINE GT-R (BNR32)"
+    },
+    {   
+        "visualModel": "33",
+        "name": "SKYLINE GT-R(KPGC10)"
+    },
+    {   
+        "visualModel": "34",
+        "name": "FAIRLADY Z Version ST (Z34)"
+    },
+    {   
+        "visualModel": "35",
+        "name": "FAIRLADY Z Version S (Z33)"
+    },
+    {   
+        "visualModel": "36",
+        "name": "Fairlady Z 300ZX TWIN TURBO (Z32)"
+    },
+    {   
+        "visualModel": "37",
+        "name": "FAIRLADY Z 300ZX (Z31)"
+    },
+    {   
+        "visualModel": "38",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "39",
+        "name": "Fairlady Z (S30)"
+    },
+    {   
+        "visualModel": "40",
+        "name": "Silvia spec.R (S15)"
+    },
+    {   
+        "visualModel": "41",
+        "name": "180SX TYPE III (RPS13)"
+    },
+    {   
+        "visualModel": "42",
+        "name": "SKYLINE COUPE 370GT Type S (CKV36)"
+    },
+    {   
+        "visualModel": "43",
+        "name": "FUGA 370GT Type S (KY51)"
+    },
+    {   
+        "visualModel": "44",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "45",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "46",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "47",
+        "name": "IMPREZA WRX STI (GRB)"
+    },
+    {   
+        "visualModel": "48",
+        "name": "IMPREZA WRX STI (GDB-F)"
+    },
+    {   
+        "visualModel": "49",
+        "name": "Impreza WRX STi (GDB-C)"
+    },
+    {   
+        "visualModel": "50",
+        "name": "Impreza WRX STi Spec-C Limited(GDB-C)"
+    },
+    {   
+        "visualModel": "51",
+        "name": "Impreza WRX STi Version VI (GC8)"
+    },
+    {   
+        "visualModel": "52",
+        "name": "Impreza WRX Type RA STi Version VI (GC8)"
+    },
+    {   
+        "visualModel": "53",
+        "name": "LEGACY B4 2.0GT spec.B (BL5)"
+    },
+    {   
+        "visualModel": "54",
+        "name": "ALCYONE SVX Version L (CXD)"
+    },
+    {   
+        "visualModel": "55",
+        "name": "R2 (RC2)"
+    },
+    {   
+        "visualModel": "56",
+        "name": "LEGACY B4 2.5GT S Package (BM9)"
+    },
+    {   
+        "visualModel": "57",
+        "name": "Supra RZ (JZA80)"
+    },
+    {   
+        "visualModel": "58",
+        "name": "SUPRA 2.5GT TWIN TURBO R (JZA70)"
+    },
+    {   
+        "visualModel": "59",
+        "name": "MR2 GT-S (SW20)"
+    },
+    {   
+        "visualModel": "60",
+        "name": "CHASER Tourer V (JZX100)"
+    },
+    {   
+        "visualModel": "61",
+        "name": "CELSIOR (UCF10)"
+    },
+    {   
+        "visualModel": "62",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "63",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "64",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "65",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "66",
+        "name": "CELSIOR (UCF10) 出租车样式"
+    },
+    {   
+        "visualModel": "67",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "68",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "69",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "70",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "71",
+        "name": "ARISTO V300 'VERTEX EDITION' (JZS161)"
+    },
+    {   
+        "visualModel": "72",
+        "name": "ARISTO V300 'VERTEX EDITION' (JZS161) 出租车样式"
+    },
+    {   
+        "visualModel": "73",
+        "name": "COROLLA SEDAN G (NZE121)"
+    },
+    {   
+        "visualModel": "74",
+        "name": "HIACE WAGON (KZH100G)"
+    },
+    {   
+        "visualModel": "75",
+        "name": "HIACE WAGON ハイリフト仕様 (KZH100G)"
+    },
+    {   
+        "visualModel": "76",
+        "name": "CROWN ATHLETE (GRS204)"
+    },
+    {   
+        "visualModel": "77",
+        "name": "SPRINTER TRUENO GT-APEX(AE86)"
+    },
+    {   
+        "visualModel": "78",
+        "name": "CELICA XX 2800GT (MA61)"
+    },
+    {   
+        "visualModel": "79",
+        "name": "2000GT (MF10)"
+    },
+    {   
+        "visualModel": "80",
+        "name": "2000GT (MF10) 黑色特别版"
+    },
+    {   
+        "visualModel": "81",
+        "name": "Z4 sDrive35is (E89)"
+    },
+    {   
+        "visualModel": "82",
+        "name": "M3 COUPE (E92)"
+    },
+    {   
+        "visualModel": "83",
+        "name": "Camaro Z28"
+    },
+    {   
+        "visualModel": "84",
+        "name": "Corvette STINGRAY (C2)"
+    },
+    {   
+        "visualModel": "85",
+        "name": "EUNOS ROADSTER(NA6CE)"
+    },
+    {   
+        "visualModel": "86",
+        "name": "SAVANNA GT (S124A)"
+    },
+    {   
+        "visualModel": "87",
+        "name": "500E(W124)"
+    },
+    {   
+        "visualModel": "88",
+        "name": "SLK350 BlueEFFICIENCY (R172)"
+    },
+    {   
+        "visualModel": "89",
+        "name": "GALANT VR-4 (E-E39A)"
+    },
+    {   
+        "visualModel": "90",
+        "name": "Gloria GranTurismo ULTIMA(Y33)"
+    },
+    {   
+        "visualModel": "91",
+        "name": "KYLINE Hardtop 2000 TURBO INTERCOOLER RS-X (R30)"
+    },
+    {   
+        "visualModel": "92",
+        "name": "STAGEA Autech Version 260RS (WGNC34)"
+    },
+    {   
+        "visualModel": "93",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "94",
+        "name": "WRX STI(GVB)"
+    },
+    {   
+        "visualModel": "95",
+        "name": "BRZ (ZC6)"
+    },
+    {   
+        "visualModel": "96",
+        "name": "SOARER 2.5GT-TWINTURBO(JZZ30)"
+    },
+    {   
+        "visualModel": "97",
+        "name": "86 (ZN6)"
+    },
+    {   
+        "visualModel": "98",
+        "name": "HIACE VAN (H200)"
+    },
+    {   
+        "visualModel": "99",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "100",
+        "name": "Z4 sDrive35is (E89) 安全车样式"
+    },
+    {   
+        "visualModel": "101",
+        "name": "M3 COUPE (E92) 黑色特别版"
+    },
+    {   
+        "visualModel": "102",
+        "name": "CAMARO SS RS 出租车样式"
+    },
+    {   
+        "visualModel": "103",
+        "name": "SLK350 BlueEFFICIENCY (R172) 出租车样式"
+    },
+    {   
+        "visualModel": "104",
+        "name": "HIACE VAN (H200) ハイリフト仕様"
+    },
+    {   
+        "visualModel": "105",
+        "name": "M1 (E26)"
+    },
+    {   
+        "visualModel": "106",
+        "name": "M3 CSL (E46)"
+    },
+    {   
+        "visualModel": "107",
+        "name": "SLS AMG GT (C197)"
+    },
+    {   
+        "visualModel": "108",
+        "name": "190E 2.5-16 Evolution II (W201)"
+    },
+    {   
+        "visualModel": "109",
+        "name": "R8 Coupe 5.2 FSI quattro (ABA42)"
+    },
+    {   
+        "visualModel": "110",
+        "name": "RS4 Avant (B8)"
+    },
+    {   
+        "visualModel": "111",
+        "name": "Viper (SRT-10)"
+    },
+    {   
+        "visualModel": "112",
+        "name": "Charger (SRT8)"
+    },
+    {   
+        "visualModel": "113",
+        "name": "LEVORG 2.0GT-S EyeSight (VMG)"
+    },
+    {   
+        "visualModel": "114",
+        "name": "M6 Gran Coupe (6C44M)"
+    },
+    {   
+        "visualModel": "115",
+        "name": "2002 turbo (E20)"
+    },
+    {   
+        "visualModel": "116",
+        "name": "ROADSTER RF RS (NDERC)"
+    },
+    {   
+        "visualModel": "117",
+        "name": "LAUREL 25 CLUB-S(GC35)"
+    },
+    {   
+        "visualModel": "118",
+        "name": "GT-R (R35) NISMO"
+    },
+    {   
+        "visualModel": "119",
+        "name": "FAIRLADY Z NISMO (Z34)"
+    },
+    {   
+        "visualModel": "120",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "121",
+        "name": "MARK II TOURER V (JZX100)"
+    },
+    {   
+        "visualModel": "122",
+        "name": "MINI COOPER S CROSSOVER(ZC16A)"
+    },
+    {   
+        "visualModel": "123",
+        "name": "AVENTADOR LP700-4"
+    },
+    {   
+        "visualModel": "124",
+        "name": "Countach LP400"
+    },
+    {   
+        "visualModel": "125",
+        "name": "Miura P400S"
+    },
+    {   
+        "visualModel": "126",
+        "name": "Diablo VT"
+    },
+    {   
+        "visualModel": "127",
+        "name": "NSX (NC1)"
+    },
+    {   
+        "visualModel": "128",
+        "name": "NSX (NA1)"
+    },
+    {   
+        "visualModel": "129",
+        "name": "NSX-R (NA2)"
+    },
+    {   
+        "visualModel": "130",
+        "name": "S660 (JW5)"
+    },
+    {   
+        "visualModel": "131",
+        "name": "S2000 (AP1)"
+    },
+    {   
+        "visualModel": "132",
+        "name": "GT-R PureEdition(R35)"
+    },
+    {   
+        "visualModel": "133",
+        "name": "SILVIA(PS13)"
+    },
+    {   
+        "visualModel": "134",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "135",
+        "name": "DUMMY"
+    },
+    {   
+        "visualModel": "136",
+        "name": "Integra Type-R (DC2)(DUMMY)"
+    },
+    {   
+        "visualModel": "137",
+        "name": "ROADSTER S Special Package (ND5RC)"
+    },
+    {   
+        "visualModel": "138",
+        "name": "LEOPARD 3.0 Ultima (F31)"
+    },
+    {   
+        "visualModel": "139",
+        "name": "Fairlady Z 280Z-T (S130)"
+    },
+    {   
+        "visualModel": "140",
+        "name": "911(930) Turbo S"
+    },
+    {   
+        "visualModel": "141",
+        "name": "911(964) Turbo 3.6"
+    },
+    {   
+        "visualModel": "142",
+        "name": "911(991) Turbo S"
+    },
+    {   
+        "visualModel": "143",
+        "name": "928GT"
+    },
+    {   
+        "visualModel": "144",
+        "name": "718 Cayman S"
+    },
+    {   
+        "visualModel": "145",
+        "name": "GR Supra RZ(DB42)"
+    },
+    {   
+        "visualModel": "146",
+        "name": "SKYLINE 2000GT-R(KPGC110)"
+    },
+    {   
+        "visualModel": "147",
+        "name": "SILVIA AERO(S14)"
+    }
+]
